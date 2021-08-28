@@ -1,0 +1,89 @@
+Epic --> https://jira.oraclecorp.com/jira/browse/FALCMATGPF-1431
+BP41 (10/7/2020)
+FALCMATGPF-1363
+FALCMATGPF-1355
+FALCMATGPF-1338
+FALCMATGPF-1344
+FALCMATGPF-1379
+FALCMATGPF-1282
+FALCMATGPF-1283
+FALCMATGPF-1284
+FALCMATGPF-1285
+FALCMATGPF-1384
+
+https://jira.oraclecorp.com/jira/browse/FALCMATGPF-1432
+BP42 (11/4/2020)
+FALCMATGPF-1290
+FALCMATGPF-1277
+FALCMATGPF-1147
+FALCMATGPF-1388
+
+https://jira.oraclecorp.com/jira/browse/FALCMATGPF-1433
+BP43 (12/2/2020)
+FALCMATGPF-1395
+
+https://jira.oraclecorp.com/jira/browse/FALCMATGPF-1434
+BP44 (1/6/2021)
+FALCMATGPF-1154
+FALCMATGPF-1151
+
+https://jira.oraclecorp.com/jira/browse/FALCMATGPF-1435
+BP45 (2/3/2021)
+FALCMATGPF-1111
+FALCMATGPF-1315
+FALCMATGPF-1286
+FALCMATGPF-1288
+
+PFCORE (02/01/2021)
+FALCMATGPF-1202
+FAPTCH-10635
+FAPTCH-7810
+FAPTCH-9759
+
+BP41_XDF_SDF_EBR
+Tracking delivery for BP41  for XDF/SDF/EBR
+This Epic is to track deliverables for XDF/SDF/EBR to be merged into BP41 ATGPF
+
+
+schedule_state_json.schedule_id == schedule_id
+schedule_state_json.schedule2_start != "null"
+step.name == "schedule_phase2"
+step.end != null
+schedule_state_json.schedule2_job_id != 0
+
+https://jira.oraclecorp.com/jira/browse/OTBI-38124
+
+
+hi all
+
+I am scheduling this meeting to go over the work the we have done around the LCM OCI Patching automation with the  goal of a weekly cadence, lights out automation, resilient code, repeatable automation. This will be fully supported in all dev tenancies 
+
+Here are some of the topics we would like to showcase
+
+1) Changes in RESUME functionality, focus being long running flows.
+2) Resiliency changes 
+STATE FILE CHANGES
+O/P null resiliency changes
+4) Full integration into the pipeline to support AU for bundle download and untar during patching.
+5) Support for Patching Orchestration Alerts in dev tenancies and production
+6) Full support for DR enabled pods (PRIMARY/STANDBY).
+7) Patching_api integration into the pipeline and some initiatives.
+8) AutoNG support for OCI
+9) T2 integration with Alerts and JIRA SD into the dev tenancies  (Pipeline --> JIRASD --> SLACK)
+
+
+Thanks
+
+Prashant
+
+
+/u01/IDMTOP/products/oraInventory
+
+/u01/p4fa_patches/PATCHES4FA_FMW12CDEV_PLATFORMS_201223.1013.S/FASPOT/slc09fxd-faspot-logs/
+
+Oracle Home       : /u01/IDMTOP/products/app
+Central Inventory : /u01/IDMTOP/products/oraInventory
+   from           : /u01/IDMTOP/products/app/oraInst.loc
+
+   https://jira.oraclecorp.com/jira/secure/Dashboard.jspa#
+Christina Tucker
